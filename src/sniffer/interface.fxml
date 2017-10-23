@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="286.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sniffer.ControllerInterface">
+   <children>
+      <ListView fx:id="interfaces" layoutX="30.0" layoutY="38.0" prefHeight="192.0" prefWidth="391.0" />
+      <Button layoutX="341.0" layoutY="236.0" mnemonicParsing="false" onMouseClicked="#Select" prefHeight="36.0" prefWidth="80.0" text="确定" />
+   </children>
+</AnchorPane>

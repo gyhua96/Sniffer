@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="451.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sniffer.ControllerMain">
+   <children>
+      <MenuBar fx:id="menuBar">
+        <menus>
+          <Menu mnemonicParsing="false" text="操作">
+            <items>
+              <MenuItem fx:id="startSniffer" mnemonicParsing="false" text="开始嗅探" />
+                <MenuItem fx:id="stopSniffer" mnemonicParsing="false" text="停止嗅探" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="选项">
+            <items>
+              <MenuItem fx:id="selectInterface" mnemonicParsing="false" text="选择网卡" />
+                <MenuItem fx:id="flitters" mnemonicParsing="false" text="选择过滤协议" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="帮助">
+            <items>
+              <MenuItem mnemonicParsing="false" text="关于" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ListView fx:id="listPackets" layoutX="15.0" layoutY="54.0" prefHeight="200.0" prefWidth="685.0" />
+      <TextArea fx:id="dataDump" editable="false" layoutX="227.0" layoutY="260.0" prefHeight="177.0" prefWidth="474.0" />
+   </children>
+</AnchorPane>

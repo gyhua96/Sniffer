@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="289.0" prefWidth="419.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sniffer.ControllerFlitter">
+   <children>
+      <CheckBox fx:id="checkIp4" layoutX="100.0" layoutY="60.0" mnemonicParsing="false" selected="true" text="IPv4" />
+      <CheckBox fx:id="checkIp6" layoutX="240.0" layoutY="60.0" mnemonicParsing="false" selected="true" text="IPv6" />
+      <CheckBox fx:id="checkTcp" layoutX="102.0" layoutY="100.0" mnemonicParsing="false" selected="true" text="TCP" />
+      <CheckBox fx:id="checkUdp" layoutX="240.0" layoutY="100.0" mnemonicParsing="false" selected="true" text="UDP" />
+      <CheckBox fx:id="checkIcmp" layoutX="100.0" layoutY="140.0" mnemonicParsing="false" selected="true" text="ICMP" />
+      <CheckBox fx:id="checkArp" layoutX="240.0" layoutY="140.0" mnemonicParsing="false" selected="true" text="ARP" />
+      <CheckBox fx:id="checkHttp" layoutX="100.0" layoutY="180.0" mnemonicParsing="false" selected="true" text="HTTP" />
+      <Button layoutX="271.0" layoutY="227.0" mnemonicParsing="false" onAction="#change" prefHeight="36.0" prefWidth="87.0" text="确定" />
+   </children>
+</AnchorPane>
