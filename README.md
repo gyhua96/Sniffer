@@ -8,12 +8,9 @@
 - 开发工具：Intellij IDEA
 - 附加库  ：winpcap，jNetPcap
 
-图7 软件启动主界面
+![软件启动主界面](http://github.com/gyuhua96/sniffer/raw/master/main.png)
 
- 
-图8 选择网络设备界面
-
- 
+![选择网络设备界面](http://github.com/gyuhua96/sniffer/raw/master/interface.png)
 图9 选择筛选协议界面
 
  
