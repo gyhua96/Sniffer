@@ -8,10 +8,11 @@
 - 开发工具：Intellij IDEA
 - 附加库  ：winpcap，jNetPcap
 
-![软件启动主界面](http://github.com/gyuhua96/sniffer/raw/master/main.png)
-
-![选择网络设备界面](http://github.com/gyuhua96/sniffer/raw/master/interface.png)
-图9 选择筛选协议界面
-
- 
-图10 嗅探器开始工作界面
+![软件启动主界面](http://github.com/gyuhua96/sniffer/raw/master/screen-shots/main.png)
+软件启动主界面
+![选择网络设备界面](http://github.com/gyuhua96/sniffer/raw/master/screen-shots/interface.png)
+选择网络设备界面
+![选择筛选协议界面](http://github.com/gyuhua96/sniffer/raw/master/screen-shots/flitter.png)
+选择筛选协议界面
+![嗅探器开始工作界面](http://github.com/gyuhua96/sniffer/raw/master/screen-shots/working.png)
+嗅探器开始工作界面
