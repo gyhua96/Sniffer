@@ -23,4 +23,4 @@
 嗅探器开始工作界面  
 
 ![将捕获到的数据包写入文件功能界面,用保存时间命名文件](https://github.com/cheng-github/Sniffer/blob/master/screen-shots/save1.PNG)
-![文件保存](https://github.com/cheng-github/Sniffer/blob/master/screen-shots/save2.PNG)
+![保存文件](https://github.com/cheng-github/Sniffer/blob/master/screen-shots/save2.PNG)
