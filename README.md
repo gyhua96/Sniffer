@@ -21,3 +21,5 @@
   
 ![嗅探器开始工作界面](https://github.com/gyhua96/Sniffer/raw/master/screen-shots/working.png)  
 嗅探器开始工作界面  
+
+![将捕获到的数据包写入文件功能界面,用保存时间命名文件]
