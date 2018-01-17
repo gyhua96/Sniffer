@@ -24,9 +24,9 @@
                 <MenuItem fx:id="flitters" mnemonicParsing="false" text="选择过滤协议" />
             </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="帮助">
+          <Menu mnemonicParsing="false" text="其它">
             <items>
-              <MenuItem mnemonicParsing="false" text="关于" />
+              <MenuItem fx:id="fileSave" mnemonicParsing="false" text="保存" />
             </items>
           </Menu>
         </menus>
